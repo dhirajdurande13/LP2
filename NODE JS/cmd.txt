@@ -1,0 +1,64 @@
+Microsoft Windows [Version 10.0.22621.2861]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\WAD\NODE JS>node -v
+v20.13.0
+
+D:\WAD\NODE JS>npm node
+Unknown command: "node"
+
+To see a list of supported npm commands, run:
+  npm help
+
+D:\WAD\NODE JS>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (node-js)
+version: (1.0.0)
+description: This is FINAL
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Sanket
+license: (ISC)
+About to write to D:\WAD\NODE JS\package.json:
+
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "This is FINAL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanket",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+D:\WAD\NODE JS>npm instal express --save
+
+added 64 packages, and audited 65 packages in 43s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\WAD\NODE JS>node index.js
+
+D:\WAD\NODE JS>node index.js
+
+D:\WAD\NODE JS>node index.js
+server is STARTED

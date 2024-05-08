@@ -1,0 +1,64 @@
+to check docker images:docker images
+
+to check running docker container:docker ps
+
+creating addition of two numbers by using openjdk 
+
+ go on the docker hub website and search openjdk.
+first have to pull openjdk by using command:docker pull openjdk
+
+check image created or not:docker images
+
+running the docker image
+
+docker run --name JAVA -it -d openjdk
+
+JAVA it can be any name for created repository or image
+it:iterable mode
+d:detach to run the image in background
+
+to execute the container:
+docker exec -it JAVA jshell
+
+jshell is command given for the JAVA container.for check before have to run :docker ps
+
+
+then cmd is started in jshell 
+we can write java code then
+
+System.out.println("Hello Docker")
+
+reating program 
+int a=10;
+int b=20;
+Syso(a+b);
+//after every line press enter
+
+exit command for docker shell:/exit
+docker container stop before running:
+docker stop id
+to remove  container:
+docker container rm id
+
+id:which will get from docker ps command
+to remove all the images:docker image prune
+
+
+
+
+
+
+
+
+
+if want to create in vs
+
+Dockerfile
+
+FROM node:alpine
+COPY . /docker
+CMD node /docker/yogesh.js
+
+to create:docker build -t foldername .
+
+docker build -t partb .

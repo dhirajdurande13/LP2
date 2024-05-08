@@ -1,0 +1,9 @@
+set url:git remote set-url origin <new-url>
+
+git add .
+
+
+git commit -m "Your commit message here"
+
+git push origin main
+
